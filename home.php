@@ -3,6 +3,25 @@ session_start();
 include("connect.php");
 
 ?>
+<?php
+        // include('connect.php');
+        // When form submitted, insert values into the database.
+
+
+        if (isset($_POST['submit'])) {
+            $name = $_POST['name'];
+            $email = $_POST['email'];
+            $message = $_POST['message'];
+            $query = "INSERT INTO contactus(name, email, message) VALUE('$name','$email','$message')";
+            $exe = mysqli_query($conn, $query);
+            if ($exe) {
+                echo "message recieved we'll contact you as soon as possible.";
+                header("location:home.php");
+            } else {
+                echo mysqli_error($conn);
+            }
+        }
+        ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -238,25 +257,7 @@ include("connect.php");
 
     <!-- CONTACT -->
     <section style="background-color:gray;" class="contact section" id="contact">
-        <?php
-        include('connect.php');
-        // When form submitted, insert values into the database.
-
-
-        if (isset($_POST['submit'])) {
-            $name = $_POST['name'];
-            $email = $_POST['email'];
-            $message = $_POST['message'];
-            $query = "INSERT INTO contactus(name, email, message) VALUE('$name','$email','$message')";
-            $exe = mysqli_query($conn, $query);
-            if ($exe) {
-                echo "message recieved we'll contact you as soon as possible.";
-                header("location:home.php");
-            } else {
-                echo mysqli_error($conn);
-            }
-        }
-        ?>
+        
         <div style="background-color:white;" class="container">
             <div class="row">
 
