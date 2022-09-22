@@ -128,7 +128,7 @@ width: 440px;
         $_SESSION["name"]=$row['username'];
         if($rowcount>0)
         {   $_SESSION['log']=true;
-            header('Location:store.php');
+            header('Location:home.php');
             } else {
                 echo "           
                     <div id='form'>

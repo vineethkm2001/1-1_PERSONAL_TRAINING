@@ -275,7 +275,7 @@ if ($_SESSION["log"] == true) {
                 <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
                     <p class="mr-4">
                         <i class="fa fa-envelope-o mr-1"></i>
-                        <a href="https://vymaps.com/KE/Platinum-Fitness-Park-1380393108684100/">vpntraining&fitness@gmail.com</a>
+                        <a href="#">vpntraining&fitness@gmail.com</a>
                     </p>
 
                     <p><i class="fa fa-phone mr-1"></i>+91-9110671177</p>

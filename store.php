@@ -26,7 +26,7 @@ if ($_SESSION["log"] == false) {
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="css/tooplate-gymso-style.css">
   <style>
-    /* Dropdown Button */
+ 
 
     .dropbtn {
       background-color: inherit;
@@ -37,19 +37,18 @@ if ($_SESSION["log"] == false) {
       cursor: pointer;
     }
 
-    /* Dropdown button on hover & focus */
     .dropbtn:hover,
     .dropbtn:focus {
       color: red;
     }
 
-    /* The container <div> - needed to position the dropdown content */
+    
     .dropdown {
       position: relative;
       display: inline-block;
     }
 
-    /* Dropdown Content (Hidden by Default) */
+   
     .dropdown-content {
       display: none;
       font-size: 20px;
@@ -61,7 +60,7 @@ if ($_SESSION["log"] == false) {
     }
 
 
-    /* Links inside the dropdown */
+    
     .dropdown-content a {
       color: black;
 
@@ -69,12 +68,11 @@ if ($_SESSION["log"] == false) {
       display: block;
     }
 
-    /* Change color of dropdown links on hover */
+    
     .dropdown-content a:hover {
       color: red
     }
 
-    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
     .show {
       display: block;
     }
@@ -314,7 +312,7 @@ if ($_SESSION["log"] == false) {
                 <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
                     <p class="mr-4">
                         <i class="fa fa-envelope-o mr-1"></i>
-                        <a href="https://vymaps.com/KE/Platinum-Fitness-Park-1380393108684100/">vpntraining&fitness@gmail.com</a>
+                        <a href="#">vpntraining&fitness@gmail.com</a>
                     </p>
 
                     <p><i class="fa fa-phone mr-1"></i>+91-9110671177</p>
