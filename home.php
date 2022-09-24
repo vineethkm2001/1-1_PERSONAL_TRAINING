@@ -78,6 +78,7 @@ include("connect.php");
                     <li class="nav-item">
                         <a href="logout.php" class="nav-link smoothScroll">logout</a>
                     </li>
+                    
                 </ul>
 
                 <ul class="social-icon ml-lg-3">
@@ -108,7 +109,7 @@ include("connect.php");
 
 
                         <h1 style="color:red" data-aos="fade-up" data-aos-delay="500">
-                            Upgrade your body at VPN 1-1 TRAINING AND FITNESS
+                            Upgrade your body at VPN <br> 1-1 TRAINING AND FITNESS
                         </h1>
 
 
